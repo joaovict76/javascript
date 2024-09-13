@@ -1,0 +1,87 @@
+usuário: t-334031
+senha: G1JTXfK8
+
+usuário: t-354645
+senha: uX34UgPh
+
+# Lógica de programação
+
+# Photshop
+
+# front-end
+- HTML5 e CSS3
+- UX UI
+- JavaScript
+- Frameworks (bootstrap)
+- CMS (wordpress)
+
+# banco de dados
+
+# sistemas desktop
+electron
+
+# back-end (Java ou php)
+
+# testes
+
+# pi
+___________________________________
+Lógica de programação
+- variáveis
+- operadores
+- algorítmo
+- estruturas de controle
+- POO
+- estruturas de dados
+
+GIT e GITHUB
+
+Comandos básicos do git:
+git config --global user.name "Seu nome"
+git config --global user.email "seuemail@email.com"
+git clone url_do_repositório (clonar repositorio)
+git push  (enviar ao repositorio)
+git add . (adiciona ao repositorio local)
+git commit -m "tutorial" (documentar as alterações)
+git status
+git pull (sincroniza as informações do repositorio do pc)
+
+
+Gerar token GitHub
+1) Settings
+2) Developer Settings
+3) Token classic
+4) Gerar o token selecionando tudo, guardar o token
+
+
+Boas Praticas na programacao 
+1)  Cabecalho de Documentacao 
+/**
+    Nome do projeto
+    Descrição da Classe / função
+    @author Joao victor 
+    2version 1.0
+*/
+
+----------------------------------------------------
+NOde - Plataforma que permite a execução de JavaScript fora da internet o navegador e conhecido como browser
+https://nodejs.org/ (Baixar sempre a versão LTS )
+
+comando basico 
+node -v (versão do node)
+
+
+Gerenciador de pacote para o node :
+npm esta relacionado a pasta do projeto ou seja os pacotes são instalados na raiz do projeto e nao no sistema
+
+npm -v (versão do npm)
+npm ls (listar pacotes instalados)
+
+npm init(iniciar um novo projeto JavaScript)
+    |____packag.json
+
+    json(javascript object notation)
+
+
+
+
