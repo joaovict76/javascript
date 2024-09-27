@@ -5,25 +5,18 @@ usuário: t-354645
 senha: uX34UgPh
 
 # Lógica de programação
-
 # Photshop
-
 # front-end
 - HTML5 e CSS3
 - UX UI
 - JavaScript
 - Frameworks (bootstrap)
 - CMS (wordpress)
-
 # banco de dados
-
 # sistemas desktop
 electron
-
 # back-end (Java ou php)
-
 # testes
-
 # pi
 ___________________________________
 Lógica de programação
@@ -33,85 +26,120 @@ Lógica de programação
 - estruturas de controle
 - POO
 - estruturas de dados
-
+ 
+__________________________________________________________________________
+ 
+MANDAMENTOS DA PROGRAMAÇÃO
+ 
+1) UX (User Experience) - desenvolver sempre pensando na experiência do usuário.
+ 
+Dica de vídeo:
+ 
+2) Usar o mínimo possível de código( variáveis, operadores, comparadores, estruturas de controle e etc).
+# Para resolver o problema ( lembrar do marcapasso).
+ 
+3) Enteder o problema. Não adianta sentar na frente do computador se você não sabe como resolver o problema.
+Algorítmo - (receita de bolo).
+Conceito:
+ 
+            # variaveis #
+- entrada - processamento - saída
+ 
+_______________________________________________________________________________
+ 
 GIT e GITHUB
-
 Comandos básicos do git:
 git config --global user.name "Seu nome"
 git config --global user.email "seuemail@email.com"
-git clone url_do_repositório (clonar repositorio)
-git push  (enviar ao repositorio)
+git clone url_do_repositório(clonar um repositorio)
+git push (enviar ao repositorio do github)
 git add . (adiciona ao repositorio local)
 git commit -m "tutorial" (documentar as alterações)
-git status
-git pull (sincroniza as informações do repositorio do pc)
-
-
+git status (verificar o status do repositorio local)
+git pull (sincroniza as informações do repositorio do github) no pc
 Gerar token GitHub
 1) Settings
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
-
-
-Boas Praticas na programacao 
-1)  Cabecalho de Documentacao 
+________________________________________________________
+Boas praticas ba programação
+1) Cabeçalho de documentação
 /**
-    Nome do projeto
-    Descrição da Classe / função
-    @author Joao victor 
-    2version 1.0
+    nome do projeto
+    Descrição da classe/função
+    @author Thiago nascimento
+    @version 1.0
 */
+2) nome de arquivos, variaveis, funções, classes, etc 
+Regras (clean code)
+-Declarar nomes que tenham relação com o problema 
+-Não usar espaços, "Ç", acentos e caracteres especiais para
+declaração de nomes (erros internos  no programa)
+-Só classes iniciam com letra maiuscula
+- Não iniciar um nome com numero 
+-Quando for declarar dois nomes usar a tecnica do camelo
+(camel case)- Usar uma letra maiuscula na segunda palavra
+Exemplo
+nomecliente no -> nomeCliente
+__________________________________________________________________________
+Comandos basicos do MS-DOS
+cls -> limpar a tela
+dir ->listar arquivos e diretorio
+cd nome_diretorio -> entrar no diretorio
+cd .. -> voltar par ao diretorio anterior
 
-----------------------------------------------------
-NOde - Plataforma que permite a execução de JavaScript fora da internet o navegador e conhecido como browser
-https://nodejs.org/ (Baixar sempre a versão LTS )
-
-comando basico 
-node -v (versão do node)
-
-
-Gerenciador de pacote para o node :
-npm esta relacionado a pasta do projeto ou seja os pacotes são instalados na raiz do projeto e nao no sistema
-
-npm -v (versão do npm)
+______________________________________________________
+Node- Plataforma que permite a execução  do JavaScript 
+fora do navegador (browser)
+https://nodejs.org/pt (sempre baixar a versão LTS)
+comandoos basicos:
+node -v (versao do node)
+Gerenciador de pacote para o node 
+npm está relacionado a pasta do projeto ou seja
+os pacotes são instalados na raiz do projeto e 
+não no sistema operacional.
+npm -v (versao do npm)
 npm ls (listar pacotes instalados)
+npm init (iniciar um novo projeto JavaScript)
+|___ package.json
+npm i nome_do_pacote (instalar um novo pacote)
+npm r nome_do_pacote (remopver o pacote)
 
-npm init(iniciar um novo projeto JavaScript)
-    |____packag.json
-
-    json(javascript object notation)
-----------------------------------------Variável e constante
-
-Uma constante é como uma variável, mas com uma diferença importante: uma vez que você define o valor de uma constante, ele não pode ser alterado durante a execução do programa.
+json (JavaScript Objetc Notation)
+_______________________________________________________
+variaveis e constantes
+Uma constante é como uma variável, mas com uma diferença importante:
+uma vez que você define o valor de uma constante,
+ele não pode ser alterado durante a execução do programa.
 Por que usar constantes?
 Segurança: Se você sabe que um valor não deve ser alterado em seu programa, usar uma constante evita erros.
-Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo e importante.
-Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam mudar, facilitando a manutenção do código.
-
-Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor armazenado pode variar ao longo do tempo, conforme o programa roda.
-
+Legibilidade: Quando você usa uma constante, deixa claro para quem está lendo o código que aquele valor é fixo
+e importante.
+Boas práticas: Em muitos casos, é recomendado usar constantes sempre que possível para valores que não precisam
+mudar, facilitando a manutenção do código.
+Uma variável é um espaço na memória do computador onde armazenamos dados que podem ser utilizados
+e modificados durante a execução de um programa. O nome "variável" vem do fato de que o valor
+armazenado pode variar ao longo do tempo, conforme o programa roda.
 Por que usar variáveis?
 Para guardar informações que você vai precisar mais tarde.
 Para realizar cálculos ou tomar decisões baseadas em diferentes valores.
-
-Nas linguagem de programação as variáveis são tipadas ou dinâmicamente tipadas
-
-Existem 3 tipos de variáveis :
-String -> Armazena caracteres e números inteiros e não inteiros
+Nas linguagens de programação as variaveis são tipadas ou 
+dinamicamente tipadas
+Existem 3 tipos de variaveis:
+String -> armazena caracteres e numeros 
+Number -> armazena numeros inteiros e nao interios 
 Boolean -> true | false
+ 
+ATENÇÃO: No JS uma variável pode ser criada usando let ou var
+var (obsoleto e inseguro), usar sempre o let
+______________________________________________________
+Comando JavaScript  (Sintaxe)
+console.log() -> escrver no console 
+console.clear() -> Limpar a tela do console 
+const -> criar(declarar)uma constantelet ->criar(declerar) uma variavel
+typeof() ->verificar o tipo de variave
 
-Atenção:no JS uma variavel pode ser criada usando let ou var.
-var (obsolteto e inseguro), usar sempre o let 
-__________________________________________________________________
-
-Comandos JavaScript(sixtape) 
-
-console.log() -> escrever no console
-console.clear() -> Limpar a tela do console
-const -> criar(delcarar) uma constante
-let -> criar(declarar) uma Variável
-typeof() varificar o tipo de variável
 
  
 
