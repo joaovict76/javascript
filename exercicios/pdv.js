@@ -4,7 +4,8 @@
  */
 
 const input = require('readline-sync')
- let total, desconto, troco, totaldesconto, valordesconto, valorpago
+
+let total, desconto, troco, totaldesconto, valordesconto, valorpago
 console.clear
 
 console.log(".------..------..------.")

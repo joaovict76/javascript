@@ -71,6 +71,7 @@ Boas praticas ba programação
     @author Thiago nascimento
     @version 1.0
 */
+
 2) nome de arquivos, variaveis, funções, classes, etc 
 Regras (clean code)
 -Declarar nomes que tenham relação com o problema 
@@ -140,8 +141,23 @@ console.clear() -> Limpar a tela do console
 const -> criar(declarar)uma constantelet ->criar(declerar) uma variavel
 typeof() ->verificar o tipo de variave
 
+Estrutura de econtrole
+- condicionais
+- laços de repetições
 
- 
+estrutura de controle condicionais
+if (condição) {
+     //condição verdadeira
+}
 
+if (condição) {
+    //condição verdadeira
+    { else }
+    //condição falsa
+}
+
+observações:
+ 1-) uma condição nunca pode ser verdadeira e falsa ao mesmo tempo.
+ 2-) No uso do if-else sempre umas das condições sera processada.
 
 

@@ -1,14 +1,14 @@
 /**
- * calculo da media aritimetica de 3 valores 
+ * Media Escolar
  * @author João Victor
  */
 
-// importar  biblioteca read-linesync
-const input = require('readline-sync')
+const input = require ('readline-sync')
 const colors = require ('colors')
 
+
 //variaveis 
-let num1, num2, num3, media 
+let num1, num2, num3, media
 
 console.clear()
 console.log("calculo da media aritmetica de 3 numeros")
