@@ -141,7 +141,8 @@ console.clear() -> Limpar a tela do console
 const -> criar(declarar)uma constantelet ->criar(declerar) uma variavel
 typeof() ->verificar o tipo de variave
 
-Estrutura de econtrole
+______________________________________________________
+Estrutura de controle
 - condicionais
 - laços de repetições
 
@@ -183,3 +184,20 @@ switch (variavel) {
         //opcional, o codigo sera executado se nenhum caso for definido
         break
 }
+
+estruturas de controle - Laços de repitçoes
+
+for (let i = 1; i < 10; i++) {
+
+}
+
+//laço com numero de repetiçoes definidas
+//let i = 1 (inicio)
+// i < 10 ( condição)
+// i++ (incremento) i-- (decremento)
+
+
+uso de laço for
+1) Percorrer uma estrutura de dados (importante)
+2) Simplificar o codigo 
+3) Fazer calculos levando em conta a variavel interna do laço
