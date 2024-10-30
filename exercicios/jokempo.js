@@ -4,8 +4,9 @@
  */
 
 const input = require('readline-sync')
-
-console.clear
+let opcao
+do {
+    console.clear
 console.log("__JoKenPo__")
 console.log("1. Pedra")
 console.log("2. Papel")
@@ -44,7 +45,7 @@ switch(computador) {
         console.log("Opcao invalida")
         break
 }
-
+opcao = input.question("Deseja jogar novamente(s/n)")
 //logica para determinar o vencer ou declarar empate 
 
 if (jogador === computador) {
@@ -54,3 +55,4 @@ if (jogador === computador) {
 } else {
     console.log("Computador Vence")
 }
+} while (opcao === 's');
