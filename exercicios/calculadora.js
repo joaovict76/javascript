@@ -7,17 +7,23 @@ const input = require ('readline-sync')
 
 let a, b, opcao
 do {
-
-    
+console.clear()
+console.log("calculadora")
+console.log("")
+console.log(" _____     _         _       _             ")
+console.log("|     |___| |___ _ _| |___ _| |___ ___ ___ ")
+console.log("|   --| .'| |  _| | | | .'| . | . |  _| .'|")
+console.log("|_____|__,|_|___|___|_|__,|___|___|_| |__,|")
+console.log("")
 a = Number(input.question("Digite o primeiro Numero: "))
 b = Number(input.question("Digite o segundo numero: "))
-
+console.clear()
 console.log("")
 console.log("1. Somar")
 console.log("2. Subtrair")
 console.log("3. Mulitipicar")
 console.log("4. Dividir")
-console.log("5. porcentagem ")
+console.log("5. porcentagem")
 opcao = Number (input.question("Digite a opcao desejada: "))
 
 console.log("")
@@ -35,7 +41,7 @@ function Mulitipicacao (a, b){
 function Divisao (a, b){
     return console.log(`A Divisao de ${a} /  ${b} = ${a / b}`)
 }
-function porcentagem (a, b){
+function porcentagem(a, b){
     return  console.log(`${b}% de ${a} = ${(b * a) / 100}`)   
 
 }
@@ -55,8 +61,8 @@ switch (opcao){
         Divisao(a,b)
         break
     case 5:
-        porcentagem(a,b)        
-        break
+        porcentagem(b,a)        
+        break 
 }
 opcao = input.question("Deseja calcular nivamente: (S/N) ")
 } while (opcao === 's');
