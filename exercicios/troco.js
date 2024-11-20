@@ -4,10 +4,11 @@
  */
 
 const input = require ('readline-sync')
+console.log(typeof(input))
 
 let valorpago, total, troco
 
-console.clear()
+//console.clear()
 console.log("troco")
 
 //entrada 
