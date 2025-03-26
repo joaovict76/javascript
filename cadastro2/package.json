@@ -1,0 +1,26 @@
+{
+  "name": "sticknotes",
+  "version": "1.0.0",
+  "description": "Projeto de notas autoadesivas (estilo Post-it) usando um framework Electron e o banco MongoDB",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovict76/sticknotes.git"
+  },
+  "author": "João Victor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaovic76/sticknotes/issues"
+  },
+  "homepage": "https://github.com/joaovic76/sticknotes#readme",
+  "devDependencies": {
+    "electron": "^34.3.0"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.1"
+  }
+}
